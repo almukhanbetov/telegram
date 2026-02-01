@@ -34,7 +34,7 @@
              flex items-center justify-center
              sticky top-0 z-10
              bg-gray-900 shadow-md">
-                <img src="web/img/logo/logo.png" alt="DevOps Admin" class="h-20 object-contain">
+                <img src="{{ asset('web/img/logo/logo.png') }}" alt="DevOps Admin" class="h-20 object-contain">
             </div>
 
             <!-- MENU -->
@@ -128,7 +128,7 @@
     </div>
 
     <!-- Scripts -->
-    <script src="web/js/main.js"></script>
+
 
 </body>
 
